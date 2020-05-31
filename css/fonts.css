@@ -10,3 +10,9 @@
     font-family: 'Merriweather', serif;
     src: url('../fonts/Merriweather/Merriweather-Regular.ttf');
 }
+
+/* font-family: 'Poppins' */
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}

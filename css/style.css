@@ -16,7 +16,26 @@
     margin: 10rem 8rem;
     color: white;
 }
+.header span {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
 .header h1 {
     font-size: 5rem;
     font-weight: 800;
+    line-height: 1;
+    margin-top: 1rem;    
+}
+
+.about {
+    margin: 10rem 8rem;
+}
+.about .about-images .about-img {
+    width: 20rem;
+}
+.about .about-images .dotted {
+    position: absolute;
+    z-index: 0;
+    transform: translateY(-45px);
+
 }
