@@ -4,3 +4,9 @@
     font-family: 'Playfair Display', serif;
     src: url('../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
 }
+
+/* font-family: 'Merriweather' */
+@font-face {
+    font-family: 'Merriweather', serif;
+    src: url('../fonts/Merriweather/Merriweather-Regular.ttf');
+}
