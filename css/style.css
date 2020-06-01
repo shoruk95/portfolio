@@ -8,7 +8,7 @@
 }
 .title {
     font-family: 'Abril Fatface';
-    font-size: 3rem;
+    font-size: 2.2rem;
     font-weight: 800;
 }
 
@@ -46,9 +46,14 @@
 }
 .about .about-images .about-img {
     width: 20rem;
+    box-shadow: 1px 1px 70px #b5b5b5;
+    transform: translate(115px, 0px);
+    z-index: 1;
+    position: relative;    
 }
 .about .about-images .dotted {
     position: absolute;
+    height: 25rem;
     z-index: 0;
-    transform: translateY(-45px);
+    transform: translate(-125px,-45px);    
 }
