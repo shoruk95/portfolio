@@ -16,3 +16,9 @@
     font-family: 'Poppins', sans-serif;
     src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
+
+/* font-family: 'Abril Fatface' */
+@font-face {
+    font-family: 'Abril Fatface', cursive;
+    src: url('../fonts/Abril_Fatface/AbrilFatface-Regular.ttf');
+}

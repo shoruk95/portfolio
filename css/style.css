@@ -4,7 +4,12 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;    
+}
+.title {
+    font-family: 'Abril Fatface';
+    font-size: 3rem;
+    font-weight: 800;
 }
 
 .header .bg-home {
@@ -18,17 +23,26 @@
 }
 .header span {
     font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;    
 }
 .header h1 {
     font-size: 5rem;
     font-weight: 800;
     line-height: 1;
-    margin-top: 1rem;    
+    margin-top: 1rem;  
+    font-family: 'Playfair Display', serif;    
 }
 
 .about {
-    margin: 10rem 8rem;
+    margin: 6rem 8rem;
+}
+.about .about-content h4 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.about .about-content p {
+    line-height: 2;
 }
 .about .about-images .about-img {
     width: 20rem;
@@ -37,5 +51,4 @@
     position: absolute;
     z-index: 0;
     transform: translateY(-45px);
-
 }
