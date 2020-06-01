@@ -10,6 +10,7 @@
     font-family: 'Abril Fatface';
     font-size: 2.2rem;
     font-weight: 800;
+    margin-bottom: 1rem;
 }
 
 .header .bg-home {
@@ -18,7 +19,7 @@
     height: 100vh;
 }
 .header .header-content {
-    margin: 10rem 8rem;
+    margin: 10rem 2rem;
     color: white;
 }
 .header span {
@@ -34,12 +35,11 @@
 }
 
 .about {
-    margin: 6rem 8rem;
+    margin: 7rem 8rem;
 }
 .about .about-content h4 {
     font-weight: 600;
     margin-bottom: 1rem;
-    margin-top: 1rem;
 }
 .about .about-content p {
     line-height: 2;
@@ -56,4 +56,42 @@
     height: 25rem;
     z-index: 0;
     transform: translate(-125px,-45px);    
+}
+
+.info {
+    margin: 8rem 8rem;
+}
+.info .box {
+    margin-top: 1rem;
+    background: #f5f5f5;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    max-inline-size: 20rem;
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    padding: 40px;
+}
+.info .box .date {
+    margin-bottom: 8rem;
+}
+.info .box .date .day {
+    font-weight: 800;
+    font-size: 3rem;
+    margin-bottom: 0rem;    
+    font-family: 'Playfair Display', serif;
+}
+.info .box .info-text-gray {
+    font-size: 0.6rem;
+    opacity: 0.5;
+    font-weight: 600;
+}
+.info .box .info-content h5 {
+    font-size: 0.7rem;
+    margin-bottom: 1rem;    
+}
+.info .box .info-content h4 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
 }
