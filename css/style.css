@@ -1,5 +1,6 @@
 @import url('./fonts.css');
 
+/*--- global ---*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -13,6 +14,7 @@
     margin-bottom: 1rem;
 }
 
+/*--- header ---*/
 .header .bg-home {
     background-image: url('../images/home-bg.jpg');
     background-size: auto; 
@@ -34,6 +36,7 @@
     font-family: 'Playfair Display', serif;    
 }
 
+/*--- about ---*/
 .about {
     margin: 7rem 8rem;
 }
@@ -58,6 +61,54 @@
     transform: translate(-125px,-45px);    
 }
 
+/*--- gallary ---*/
+.gallary {
+    background-color: #F7F7F7;
+}
+.gallary .margin {
+    margin: 0rem 8rem; 
+    padding: 3rem 15px;    
+}
+.gallary img {
+    width: 300px;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+.gallary .gallary-content {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.gallary .gallary-content .list {
+    list-style: none; 
+    display: flex;   
+}
+.gallary .gallary-content .list a {
+    color: #000000;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+.gallary .gallary-content .list a :hover {
+    color: #000000;
+    text-decoration: none;
+}
+.gallary .gallary-content .currant {
+    font-weight: 600;
+}
+.gallary .gallary-button {
+    text-align: center;
+}
+.gallary .gallary-button button {
+    background: #000000;
+    padding: 13px 28px;
+    color: white;
+    font-size: 13px;
+    border: 0;
+    border-radius: 4px;    
+}
+
+/*--- info ---*/
 .info {
     margin: 8rem 8rem;
 }
@@ -95,3 +146,4 @@
     font-size: 1.2rem;
     line-height: 1.7rem;
 }
+
