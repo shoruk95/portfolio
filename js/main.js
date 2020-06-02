@@ -1,6 +1,6 @@
 $('.carousel').carousel({
     loop:true,
-    margin:12,
+    margin:1,
     nav: false,
     navContainer:false,
     responsiveClass:true,
@@ -14,7 +14,7 @@ $('.carousel').carousel({
         },
         1000:{
             items:3,
-            margin:16
+            margin:1
         }
     }
 })
