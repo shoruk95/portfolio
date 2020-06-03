@@ -13,6 +13,18 @@
     font-weight: 800;
     margin-bottom: 1rem;
 }
+.button {
+    background: #000000;
+    padding: 13px 28px;
+    color: white;
+    font-size: 13px;
+    border: 0;
+    border-radius: 4px;    
+}
+.margin {
+    margin: 0rem 8rem; 
+    padding: 3rem 15px;    
+}
 
 /*--- header ---*/
 .header .bg-home {
@@ -65,10 +77,6 @@
 .gallary {
     background-color: #F7F7F7;
 }
-.gallary .margin {
-    margin: 0rem 8rem; 
-    padding: 3rem 15px;    
-}
 .gallary img {
     width: 300px;
     height: 100%;
@@ -99,14 +107,7 @@
 .gallary .gallary-button {
     text-align: center;
 }
-.gallary .gallary-button button {
-    background: #000000;
-    padding: 13px 28px;
-    color: white;
-    font-size: 13px;
-    border: 0;
-    border-radius: 4px;    
-}
+
 
 /*--- info ---*/
 .info {
@@ -147,3 +148,18 @@
     line-height: 1.7rem;
 }
 
+/*--- contact ---*/
+.contact {
+    background: #F7F7F7;
+}
+/*
+.contact .form {
+    max-width: 100rem;
+}
+*/
+.contact .form .border {
+    background: transparent;
+}
+.contact .form .text {
+    font-size: 12.8px;
+}
