@@ -25,6 +25,10 @@
     margin: 0rem 8rem; 
     padding: 3rem 15px;    
 }
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /*--- header ---*/
 .header .bg-home {
@@ -152,14 +156,31 @@
 .contact {
     background: #F7F7F7;
 }
+.contact .address .contact-info span {
+    font-size: 16px;
+    opacity: 0.5;
+    font-weight: 400;
+}
+.contact .address .contact-info p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+.contact .address .contact-info a {
+    color: #000000;
+}
+.contact .address .contact-info .social {
+    tab-size:16;
+}
 /*
 .contact .form {
     max-width: 100rem;
 }
 */
-.contact .form .border {
-    background: transparent;
-}
 .contact .form .text {
     font-size: 12.8px;
+    background: transparent;
+    margin-bottom: 2rem;    
 }
