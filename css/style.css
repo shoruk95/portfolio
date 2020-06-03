@@ -184,3 +184,15 @@ a {
     background: transparent;
     margin-bottom: 2rem;    
 }
+.contact .map iframe {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: #F7F7F7;
+    text-align: center; 
+}
+footer .social a {
+    color: #000000;
+}
