@@ -97,10 +97,16 @@ a {
 }
 
 /*--- features ---*/
-.feature-style p {
-    color: #000000;
+.feature-style {
+    text-align: left;
 }
 .feature-title {
+    color: #000000;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: 'Abril Fatface';
+}
+.feature-style p {
     color: #000000;
 }
 
