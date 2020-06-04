@@ -96,6 +96,14 @@ a {
     transform: translate(-125px,-45px);    
 }
 
+/*--- features ---*/
+.feature-style p {
+    color: #000000;
+}
+.feature-title {
+    color: #000000;
+}
+
 /*--- gallary ---*/
 .gallary {
     background-color: #F7F7F7;
