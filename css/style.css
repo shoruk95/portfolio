@@ -258,7 +258,7 @@ footer .social a {
 
     /*--- header ---*/
     .header .header-content {
-        margin: 35rem 0rem;
+        margin: 75% 0rem;
     }
     .header h1 {
         font-size: 4rem;
@@ -266,7 +266,7 @@ footer .social a {
 
     /*--- about ---*/
     .about .about-images .about-img {
-        width: 36rem;
+        width: 100%;
         transform: translate(0px, 0px);
     }
     .about .about-images .dotted {
@@ -275,21 +275,21 @@ footer .social a {
 
     /*--- features ---*/
     .feature-style {
-        margin: 0rem 4rem 2rem;
+        margin: 1rem 4rem 2rem;
     }
 
     /*--- gallery ---*/
     .gallary img {
-        width: 375px;
+        width: 575px;
     }
 
     /*--- info ---*/
     .info .box {
         margin-top: 0rem;
         margin-bottom: 3rem;
-        margin-inline-start: 3rem;
-        margin-inline-end: 3rem;
-        max-inline-size: 33rem;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        max-inline-size: 80%;
         min-height: 260px;
     }
     
