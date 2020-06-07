@@ -3,11 +3,13 @@
 /*--- global ---*/
 * {
     box-sizing: border-box;
-    width: 100%;
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;    
+}
+html {
+    font-size: 100%;
 }
 .title {
     font-family: 'Abril Fatface';
@@ -71,6 +73,7 @@ a {
     line-height: 1;
     margin-top: 1rem;  
     font-family: 'Playfair Display', serif;    
+    overflow-y: hidden;
 }
 
 /*--- about ---*/
@@ -231,3 +234,70 @@ footer {
 footer .social a {
     color: #000000;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 575px) {
+    
+    /*--- global ---*/
+    html {
+        font-size: 60%;
+    }
+    .title {
+        margin-bottom: 3rem;
+    }
+
+    /*--- navbar ---*/
+    .center-text {
+        line-height: 0.5;
+    }
+
+    /*--- header ---*/
+    .header .header-content {
+        margin: 35rem 0rem;
+    }
+    .header h1 {
+        font-size: 4rem;
+    }
+
+    /*--- about ---*/
+    .about .about-images .about-img {
+        width: 36rem;
+        transform: translate(0px, 0px);
+    }
+    .about .about-images .dotted {
+        height: 0rem;
+    }
+
+    /*--- features ---*/
+    .feature-style {
+        margin: 0rem 4rem 2rem;
+    }
+
+    /*--- gallery ---*/
+    .gallary img {
+        width: 375px;
+    }
+
+    /*--- info ---*/
+    .info .box {
+        margin-top: 0rem;
+        margin-bottom: 3rem;
+        margin-inline-start: 3rem;
+        margin-inline-end: 3rem;
+        max-inline-size: 33rem;
+        min-height: 260px;
+    }
+    
+    
+    
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
